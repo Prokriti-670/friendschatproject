@@ -1,0 +1,31 @@
+{% extends 'background.html' %}
+
+{% block title %}
+     Profile
+        {% endblock %}
+{% block heading %}
+<div style="text-align:center">
+<h1 style="text-align:center"><span style="color:white">User's Profile</span></h1>
+
+<div>
+<label for="photo">Upload Photo</label>
+    <input type="file" name="photo" id="photo">
+    </div>
+
+<br>
+Name:    <!--label ty__-->
+<br>
+    <br>
+
+  Email: <input type="email" name="email" placeholder="">
+<br>
+    <br>
+ Bio: <textarea name="bio" rows="6" placeholder="Add Bio"></textarea>
+<br>
+    <br>
+     <br>
+     <a>
+                <input type="button" value="save"> </a>
+              <input type="button" value="edit"> </a>
+    </div>
+{% endblock %}
